@@ -19,6 +19,8 @@
     "noFallthroughCasesInSwitch": false,
     "paths": {
       "@/message/*": ["src/features/message/*"],
+      "@/book/*": ["src/features/book/*"],
+      "@/id-generator/*": ["src/services/id-generator/*"],
     }
   }
 }
