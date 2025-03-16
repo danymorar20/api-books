@@ -10,7 +10,6 @@ export class AuthController {
 
   @Post()
   async login(@Body() loginRequest: UserRequestDto): Promise<{ accessToken: string }> {
-    console.log("login iniciando");
     return await this.loginUseCase.execute(loginRequest);
   }
 }
