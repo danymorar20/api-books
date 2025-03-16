@@ -18,6 +18,7 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
+      "@/auth/*": ["src/features/auth/*"],
       "@/message/*": ["src/features/message/*"],
       "@/book/*": ["src/features/book/*"],
       "@/id-generator/*": ["src/services/id-generator/*"],
